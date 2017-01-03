@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>WebSocket Testing Client v1.4</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap-theme.css">
+	<script language="javascript" type="text/javascript" src="js\jquery-2.0.3.min.js"></script>
+	<script language="javascript" type="text/javascript" src="js\phrases.js"></script>
+    <script language="javascript" type="text/javascript" src="js\socketConnect.js"></script>
+	<script language="javascript" type="text/javascript" src="js\console.js"></script>
+	<script language="javascript" type="text/javascript" src="js\logger.js"></script>
+	<style>
+		pre {
+			height: 300px;
+			max-height: 300px;
+			overflow: auto;
+			background-color: #eeeeee;
+			word-break: normal !important;
+			word-wrap: normal !important;
+			white-space: pre !important;
+			}
+	</style
+</head>
+<body>
+    <div class="container">
+		<div class="page-header" style="padding-top: 5px;">
+			<span>
+				<h2 class="text-center" style="display:inline-block;">WebSocket Testing Client v1.4</h2>
+				<img style="vertical-align: middle;" width="50" height="50" src="logo.png" />
+			</span>
+		</div>		
+	
+		<div style="width: 60%;">		
+			<div class="input-group">
+				<input type="text" id="target" class="form-control" value="" placeholder="ws://uri" />
+				<span class="input-group-btn">
+					<button id="connect" class="btn btn-default">Connect</button>
+					<button id="disconnect" class="btn btn-default">Disconnect</button>
+				</span>
+			</div>	
+			<br />
+			<br />
+			<div class="input-group">
+				<input type="text" id="message" value="" class="form-control" placeholder="message to send"/>
+				<span class="input-group-btn">
+					<button id="send" class="btn btn-default">Send</button>
+				</span>
+			</div>
+				<br />
+				<br />
+			<div>
+				<span>Output:</span>
+				<br />
+				<pre>
+					<div id="output"></div>
+				</pre>
+				<button id="clean" class="btn btn-default">Clean</button>
+			</div>
+		</div>
+    </div>
+	<script>
+		init();
+	</script>
+</body>
+</html>
