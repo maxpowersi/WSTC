@@ -1,4 +1,4 @@
-![alt tag](https://raw.githubusercontent.com/maxpowersi/Security/master/WebSocketTester/logo.png)
+![alt tag](https://raw.githubusercontent.com/maxpowersi/WSTC/master/logo.png)
 
 WebSocket Testing Client v1.4
 
