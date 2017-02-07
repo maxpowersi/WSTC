@@ -2,4 +2,4 @@
 
 WebSocket Testing Client v1.4
 
-The WebSocketTestingClient is a websocket client that allow user test connection with the server, sending and receiving messages.
+The WSTC is a websocket client that allow user test connection with the server, sending and receiving messages.
