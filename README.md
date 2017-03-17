@@ -1,5 +1,5 @@
 ![alt tag](https://raw.githubusercontent.com/maxpowersi/WSTC/master/logo.png)
-
+<br/>
 # WebSocket Testing Client v1.4
-
-The WSTC is a websocket client that allow user test connection with the server, sending and receiving messages.
+<br/>
+The WSTC is a websocket client that allow user test connection with the server, sending and receiving messages. It is distributed under the GNU GPLv3 license.
